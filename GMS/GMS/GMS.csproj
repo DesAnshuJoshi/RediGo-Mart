@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{27378FC6-06A8-4F60-80CE-B39A6422D52E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GMS</RootNamespace>
+    <AssemblyName>GMS</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Asset\Images\admin.png" />
+    <Content Include="Asset\Images\categories.png" />
+    <Content Include="Asset\Images\categories\cat1.png" />
+    <Content Include="Asset\Images\categories\cat2.png" />
+    <Content Include="Asset\Images\categories\cat3.png" />
+    <Content Include="Asset\Images\categories\cat4.png" />
+    <Content Include="Asset\Images\categories\cat5.png" />
+    <Content Include="Asset\Images\categories\cat6.png" />
+    <Content Include="Asset\Images\categories\cat7.png" />
+    <Content Include="Asset\Images\categories\cat8.png" />
+    <Content Include="Asset\Images\category.png" />
+    <Content Include="Asset\Images\check_rupee.png" />
+    <Content Include="Asset\Images\dashboard_layout.png" />
+    <Content Include="Asset\Images\estimate.png" />
+    <Content Include="Asset\Images\explore.png" />
+    <Content Include="Asset\Images\fast-cart.png" />
+    <Content Include="Asset\Images\featured\Amul.png" />
+    <Content Include="Asset\Images\featured\Cadbury.png" />
+    <Content Include="Asset\Images\featured\Godiva.png" />
+    <Content Include="Asset\Images\featured\Neuhaus.png" />
+    <Content Include="Asset\Images\featured\Wedel.png" />
+    <Content Include="Asset\Images\featured\Whittaker.png" />
+    <Content Include="Asset\Images\head-img.png" />
+    <Content Include="Asset\Images\icon-bg.png" />
+    <Content Include="Asset\Images\intocart.png" />
+    <Content Include="Asset\Images\logo.png" />
+    <Content Include="Asset\Images\logos\amul.png" />
+    <Content Include="Asset\Images\logos\britannia.png" />
+    <Content Include="Asset\Images\logos\dabur.png" />
+    <Content Include="Asset\Images\logos\himalaya.png" />
+    <Content Include="Asset\Images\logos\hul.png" />
+    <Content Include="Asset\Images\logos\itc.png" />
+    <Content Include="Asset\Images\logos\mtr.png" />
+    <Content Include="Asset\Images\logos\nestle.png" />
+    <Content Include="Asset\Images\logos\p_g.png" />
+    <Content Include="Asset\Images\logos\parle.png" />
+    <Content Include="Asset\Images\logos\patanjali.png" />
+    <Content Include="Asset\Images\logos\pepsico.png" />
+    <Content Include="Asset\Images\new\coffee-machine.png" />
+    <Content Include="Asset\Images\new\hair-dryer.png" />
+    <Content Include="Asset\Images\new\hair-straightner.png" />
+    <Content Include="Asset\Images\new\kettle.png" />
+    <Content Include="Asset\Images\offer\axis.png" />
+    <Content Include="Asset\Images\offer\kotak.png" />
+    <Content Include="Asset\Images\offer\offer-girl.png" />
+    <Content Include="Asset\Images\offer\sbi.png" />
+    <Content Include="Asset\Images\popular.png" />
+    <Content Include="Asset\Images\products.png" />
+    <Content Include="Asset\Images\rupee-indian.png" />
+    <Content Include="Asset\Images\sale.png" />
+    <Content Include="Asset\Images\seller-db.png" />
+    <Content Include="Asset\Images\seller.png" />
+    <Content Include="Asset\Images\shopping.gif" />
+    <Content Include="Asset\Images\shopping.png" />
+    <Content Include="Asset\Images\shop\aashirvad-atta-itc.png" />
+    <Content Include="Asset\Images\shop\active-wheel-hul.png" />
+    <Content Include="Asset\Images\shop\agrataj-petha-hr.png" />
+    <Content Include="Asset\Images\shop\almond-oil-dabur.png" />
+    <Content Include="Asset\Images\shop\atta-noodles-pat.png" />
+    <Content Include="Asset\Images\shop\axe-signature-hul.png" />
+    <Content Include="Asset\Images\shop\ayurveda-soap-him.png" />
+    <Content Include="Asset\Images\shop\b-natural-itc.png" />
+    <Content Include="Asset\Images\shop\baby-shampoo-him.png" />
+    <Content Include="Asset\Images\shop\bhujia-sev-hr.png" />
+    <Content Include="Asset\Images\shop\bingo-mad-itc.png" />
+    <Content Include="Asset\Images\shop\biscafe-brit.png" />
+    <Content Include="Asset\Images\shop\brooke-bond-hul.png" />
+    <Content Include="Asset\Images\shop\butter-amul.png" />
+    <Content Include="Asset\Images\shop\cashew-jar-hr.png" />
+    <Content Include="Asset\Images\shop\cheese-spread-brit.png" />
+    <Content Include="Asset\Images\shop\cheetos-pepsi.png" />
+    <Content Include="Asset\Images\shop\clinic-plus-hul.png" />
+    <Content Include="Asset\Images\shop\comfort-hul.png" />
+    <Content Include="Asset\Images\shop\dhokla-mix-mtr.png" />
+    <Content Include="Asset\Images\shop\doritos-pepsi.png" />
+    <Content Include="Asset\Images\shop\f-n-b-him.png" />
+    <Content Include="Asset\Images\shop\gold-amul.png" />
+    <Content Include="Asset\Images\shop\goodday-brit.png" />
+    <Content Include="Asset\Images\shop\hajmola-dabur.png" />
+    <Content Include="Asset\Images\shop\head-shoulders-png.png" />
+    <Content Include="Asset\Images\shop\hide-seek-parle.png" />
+    <Content Include="Asset\Images\shop\honey-dabur.png" />
+    <Content Include="Asset\Images\shop\immunocharge-pat.png" />
+    <Content Include="Asset\Images\shop\kitkat-nest.png" />
+    <Content Include="Asset\Images\shop\koko-krunch-nest.png" />
+    <Content Include="Asset\Images\shop\krackjack-brit.png" />
+    <Content Include="Asset\Images\shop\kurkure-pepsi.png" />
+    <Content Include="Asset\Images\shop\lact-free-amul.png" />
+    <Content Include="Asset\Images\shop\lays-pepsi.png" />
+    <Content Include="Asset\Images\shop\lemon-body-cleanser-pat.png" />
+    <Content Include="Asset\Images\shop\lemon-rice-mtr.png" />
+    <Content Include="Asset\Images\shop\logo\amul.png" />
+    <Content Include="Asset\Images\shop\logo\britannia.png" />
+    <Content Include="Asset\Images\shop\logo\dabur.png" />
+    <Content Include="Asset\Images\shop\logo\fritolay.png" />
+    <Content Include="Asset\Images\shop\logo\haldirams.png" />
+    <Content Include="Asset\Images\shop\logo\himalaya.png" />
+    <Content Include="Asset\Images\shop\logo\hul.png" />
+    <Content Include="Asset\Images\shop\logo\itc.png" />
+    <Content Include="Asset\Images\shop\logo\mtr.png" />
+    <Content Include="Asset\Images\shop\logo\nestle.png" />
+    <Content Include="Asset\Images\shop\logo\parle.png" />
+    <Content Include="Asset\Images\shop\logo\patanjali.png" />
+    <Content Include="Asset\Images\shop\logo\pepsico.png" />
+    <Content Include="Asset\Images\shop\logo\png.png" />
+    <Content Include="Asset\Images\shop\maggi-nest.png" />
+    <Content Include="Asset\Images\shop\masti-amul.png" />
+    <Content Include="Asset\Images\shop\milkmaid-nest.png" />
+    <Content Include="Asset\Images\shop\monaco-parle.png" />
+    <Content Include="Asset\Images\shop\nariyal-cookies-pat.png" />
+    <Content Include="Asset\Images\shop\neem-fw-him.png" />
+    <Content Include="Asset\Images\shop\nes-gold-nest.png" />
+    <Content Include="Asset\Images\shop\nutri-choice-brit.png" />
+    <Content Include="Asset\Images\shop\old-spice-png.png" />
+    <Content Include="Asset\Images\shop\paneer-amul.png" />
+    <Content Include="Asset\Images\shop\pantene-png.png" />
+    <Content Include="Asset\Images\shop\parleg-parle.png" />
+    <Content Include="Asset\Images\shop\quacker-oats-pepsi.png" />
+    <Content Include="Asset\Images\shop\rasgulla-hr.png" />
+    <Content Include="Asset\Images\shop\real-dabur.png" />
+    <Content Include="Asset\Images\shop\rice-idli-mtr.png" />
+    <Content Include="Asset\Images\shop\room-freshner-dabur.png" />
+    <Content Include="Asset\Images\shop\rte-bisibelle-mtr.png" />
+    <Content Include="Asset\Images\shop\rte-rajma-chawal-hr.png" />
+    <Content Include="Asset\Images\shop\rusk-parle.png" />
+    <Content Include="Asset\Images\shop\sunfeast-df-itc.png" />
+    <Content Include="Asset\Images\shop\sunfeast-yippee-itc.png" />
+    <Content Include="Asset\Images\shop\swasari-pat.png" />
+    <Content Include="Asset\Images\shop\tide-png.png" />
+    <Content Include="Asset\Images\shop\treat-wafer-brit.png" />
+    <Content Include="Asset\Images\shop\vege-fruit-cleanser-him.png" />
+    <Content Include="Asset\Images\shop\vermicelli-payasam-mtr.png" />
+    <Content Include="Asset\Images\shop\whisper-png.png" />
+    <Content Include="Asset\Images\users.png" />
+    <Content Include="Asset\Images\wow\img1.png" />
+    <Content Include="Asset\Images\wow\img2.png" />
+    <Content Include="Asset\Images\wow\img3.png" />
+    <Content Include="Asset\Images\wow\img4.png" />
+    <Content Include="Asset\Images\wow\img5.png" />
+    <Content Include="Asset\Js\app.js" />
+    <Content Include="Asset\Js\front-end.js" />
+    <Content Include="Asset\Js\front-main.js" />
+    <Content Include="Asset\Js\main.js" />
+    <Content Include="Asset\Js\mixitup.min.js" />
+    <Content Include="Asset\Js\printThis.js" />
+    <Content Include="Asset\Lib\animate\animate.css" />
+    <Content Include="Asset\Lib\Bootstrap\css\bootstrap-grid.css" />
+    <Content Include="Asset\Lib\Bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="Asset\Lib\Bootstrap\css\bootstrap-grid.rtl.css" />
+    <Content Include="Asset\Lib\Bootstrap\css\bootstrap-grid.rtl.min.css" />
+    <Content Include="Asset\Lib\Bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="Asset\Lib\Bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="Asset\Lib\Bootstrap\css\bootstrap-reboot.rtl.css" />
+    <Content Include="Asset\Lib\Bootstrap\css\bootstrap-reboot.rtl.min.css" />
+    <Content Include="Asset\Lib\Bootstrap\css\bootstrap-utilities.css" />
+    <Content Include="Asset\Lib\Bootstrap\css\bootstrap-utilities.min.css" />
+    <Content Include="Asset\Lib\Bootstrap\css\bootstrap-utilities.rtl.css" />
+    <Content Include="Asset\Lib\Bootstrap\css\bootstrap-utilities.rtl.min.css" />
+    <Content Include="Asset\Lib\Bootstrap\css\bootstrap.css" />
+    <Content Include="Asset\Lib\Bootstrap\css\bootstrap.min.css" />
+    <Content Include="Asset\Lib\Bootstrap\css\bootstrap.rtl.css" />
+    <Content Include="Asset\Lib\Bootstrap\css\bootstrap.rtl.min.css" />
+    <Content Include="Asset\Lib\Bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="Asset\Lib\Bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="Asset\Lib\Bootstrap\js\bootstrap.esm.js" />
+    <Content Include="Asset\Lib\Bootstrap\js\bootstrap.esm.min.js" />
+    <Content Include="Asset\Lib\Bootstrap\js\bootstrap.js" />
+    <Content Include="Asset\Lib\Bootstrap\js\bootstrap.min.js" />
+    <Content Include="Asset\Lib\Bootstrap\js\popper.js" />
+    <Content Include="Asset\Lib\Bootstrap\js\popper.min.js" />
+    <Content Include="Asset\Lib\css-hamburgers\hamburgers.css" />
+    <Content Include="Asset\Lib\css-hamburgers\hamburgers.min.css" />
+    <Content Include="Asset\Lib\Font\font-awesome-4.7.0\css\font-awesome.css" />
+    <Content Include="Asset\Lib\Font\font-awesome-4.7.0\css\font-awesome.min.css" />
+    <Content Include="Asset\Lib\Font\font-awesome-4.7.0\fonts\fontawesome-webfont.svg" />
+    <Content Include="Asset\Lib\Font\font-awesome-4.7.0\HELP-US-OUT.txt" />
+    <Content Include="Asset\Lib\Font\montserrat\OFL.txt" />
+    <Content Include="Asset\Lib\jquery\jquery-3.2.1.min.js" />
+    <Content Include="Asset\Lib\select2\select2.css" />
+    <Content Include="Asset\Lib\select2\select2.js" />
+    <Content Include="Asset\Lib\select2\select2.min.css" />
+    <Content Include="Asset\Lib\select2\select2.min.js" />
+    <Content Include="Asset\Lib\Style\img-style.css" />
+    <Content Include="Asset\Lib\Style\index_style.css" />
+    <Content Include="Asset\Lib\Style\main.css" />
+    <Content Include="Asset\Lib\Style\style.css" />
+    <Content Include="Asset\Lib\Style\util.css" />
+    <Content Include="Asset\Lib\tilt\tilt.jquery.min.js" />
+    <Content Include="content\toastr.css" />
+    <Content Include="content\toastr.min.css" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.6.3-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.6.3.js" />
+    <Content Include="Scripts\jquery-1.6.3.min.js" />
+    <Content Include="Scripts\toastr.js" />
+    <Content Include="Scripts\toastr.min.js" />
+    <Content Include="View\Index.aspx" />
+    <Content Include="View\Admin\Categories.aspx" />
+    <Content Include="View\Admin\Dashboard.aspx" />
+    <Content Include="View\Admin\Products.aspx" />
+    <Content Include="View\Admin\Sellers.aspx" />
+    <Content Include="View\Login.aspx" />
+    <Content Include="View\Seller\Billing.aspx" />
+    <Content Include="View\Shop.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="View\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Functions.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\Admin\AdminMaster.Master.cs">
+      <DependentUpon>AdminMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Admin\AdminMaster.Master.designer.cs">
+      <DependentUpon>AdminMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="View\Admin\Categories.aspx.cs">
+      <DependentUpon>Categories.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Admin\Categories.aspx.designer.cs">
+      <DependentUpon>Categories.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\Admin\Dashboard.aspx.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Admin\Dashboard.aspx.designer.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\Admin\Products.aspx.cs">
+      <DependentUpon>Products.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Admin\Products.aspx.designer.cs">
+      <DependentUpon>Products.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\Admin\Sellers.aspx.cs">
+      <DependentUpon>Sellers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Admin\Sellers.aspx.designer.cs">
+      <DependentUpon>Sellers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\Seller\Billing.aspx.cs">
+      <DependentUpon>Billing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Seller\Billing.aspx.designer.cs">
+      <DependentUpon>Billing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\Seller\SellerMaster.Master.cs">
+      <DependentUpon>SellerMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Seller\SellerMaster.Master.designer.cs">
+      <DependentUpon>SellerMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="View\Shop.aspx.cs">
+      <DependentUpon>Shop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Shop.aspx.designer.cs">
+      <DependentUpon>Shop.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Model\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="View\Admin\AdminMaster.Master" />
+    <Content Include="View\Seller\SellerMaster.Master" />
+    <None Include="Asset\Lib\Bootstrap\css\bootstrap-grid.css.map" />
+    <None Include="Asset\Lib\Bootstrap\css\bootstrap-grid.min.css.map" />
+    <None Include="Asset\Lib\Bootstrap\css\bootstrap-grid.rtl.css.map" />
+    <None Include="Asset\Lib\Bootstrap\css\bootstrap-grid.rtl.min.css.map" />
+    <None Include="Asset\Lib\Bootstrap\css\bootstrap-reboot.css.map" />
+    <None Include="Asset\Lib\Bootstrap\css\bootstrap-reboot.min.css.map" />
+    <None Include="Asset\Lib\Bootstrap\css\bootstrap-reboot.rtl.css.map" />
+    <None Include="Asset\Lib\Bootstrap\css\bootstrap-reboot.rtl.min.css.map" />
+    <None Include="Asset\Lib\Bootstrap\css\bootstrap-utilities.css.map" />
+    <None Include="Asset\Lib\Bootstrap\css\bootstrap-utilities.min.css.map" />
+    <None Include="Asset\Lib\Bootstrap\css\bootstrap-utilities.rtl.css.map" />
+    <None Include="Asset\Lib\Bootstrap\css\bootstrap-utilities.rtl.min.css.map" />
+    <None Include="Asset\Lib\Bootstrap\css\bootstrap.css.map" />
+    <None Include="Asset\Lib\Bootstrap\css\bootstrap.min.css.map" />
+    <None Include="Asset\Lib\Bootstrap\css\bootstrap.rtl.css.map" />
+    <None Include="Asset\Lib\Bootstrap\css\bootstrap.rtl.min.css.map" />
+    <None Include="Asset\Lib\Bootstrap\js\bootstrap.bundle.js.map" />
+    <None Include="Asset\Lib\Bootstrap\js\bootstrap.bundle.min.js.map" />
+    <None Include="Asset\Lib\Bootstrap\js\bootstrap.esm.js.map" />
+    <None Include="Asset\Lib\Bootstrap\js\bootstrap.esm.min.js.map" />
+    <None Include="Asset\Lib\Bootstrap\js\bootstrap.js.map" />
+    <None Include="Asset\Lib\Bootstrap\js\bootstrap.min.js.map" />
+    <None Include="Asset\Lib\Font\font-awesome-4.7.0\fonts\fontawesome-webfont.eot" />
+    <None Include="Asset\Lib\Font\font-awesome-4.7.0\fonts\fontawesome-webfont.ttf" />
+    <None Include="Asset\Lib\Font\font-awesome-4.7.0\fonts\fontawesome-webfont.woff" />
+    <None Include="Asset\Lib\Font\font-awesome-4.7.0\fonts\fontawesome-webfont.woff2" />
+    <None Include="Asset\Lib\Font\font-awesome-4.7.0\fonts\FontAwesome.otf" />
+    <None Include="Asset\Lib\Font\font-awesome-4.7.0\less\animated.less" />
+    <None Include="Asset\Lib\Font\font-awesome-4.7.0\less\bordered-pulled.less" />
+    <None Include="Asset\Lib\Font\font-awesome-4.7.0\less\core.less" />
+    <None Include="Asset\Lib\Font\font-awesome-4.7.0\less\fixed-width.less" />
+    <None Include="Asset\Lib\Font\font-awesome-4.7.0\less\font-awesome.less" />
+    <None Include="Asset\Lib\Font\font-awesome-4.7.0\less\icons.less" />
+    <None Include="Asset\Lib\Font\font-awesome-4.7.0\less\larger.less" />
+    <None Include="Asset\Lib\Font\font-awesome-4.7.0\less\list.less" />
+    <None Include="Asset\Lib\Font\font-awesome-4.7.0\less\mixins.less" />
+    <None Include="Asset\Lib\Font\font-awesome-4.7.0\less\path.less" />
+    <None Include="Asset\Lib\Font\font-awesome-4.7.0\less\rotated-flipped.less" />
+    <None Include="Asset\Lib\Font\font-awesome-4.7.0\less\screen-reader.less" />
+    <None Include="Asset\Lib\Font\font-awesome-4.7.0\less\stacked.less" />
+    <None Include="Asset\Lib\Font\font-awesome-4.7.0\less\variables.less" />
+    <None Include="Asset\Lib\Font\font-awesome-4.7.0\scss\font-awesome.scss" />
+    <None Include="Asset\Lib\Font\font-awesome-4.7.0\scss\_animated.scss" />
+    <None Include="Asset\Lib\Font\font-awesome-4.7.0\scss\_bordered-pulled.scss" />
+    <None Include="Asset\Lib\Font\font-awesome-4.7.0\scss\_core.scss" />
+    <None Include="Asset\Lib\Font\font-awesome-4.7.0\scss\_fixed-width.scss" />
+    <None Include="Asset\Lib\Font\font-awesome-4.7.0\scss\_icons.scss" />
+    <None Include="Asset\Lib\Font\font-awesome-4.7.0\scss\_larger.scss" />
+    <None Include="Asset\Lib\Font\font-awesome-4.7.0\scss\_list.scss" />
+    <None Include="Asset\Lib\Font\font-awesome-4.7.0\scss\_mixins.scss" />
+    <None Include="Asset\Lib\Font\font-awesome-4.7.0\scss\_path.scss" />
+    <None Include="Asset\Lib\Font\font-awesome-4.7.0\scss\_rotated-flipped.scss" />
+    <None Include="Asset\Lib\Font\font-awesome-4.7.0\scss\_screen-reader.scss" />
+    <None Include="Asset\Lib\Font\font-awesome-4.7.0\scss\_stacked.scss" />
+    <None Include="Asset\Lib\Font\font-awesome-4.7.0\scss\_variables.scss" />
+    <None Include="Asset\Lib\Font\montserrat\Montserrat-Black.ttf" />
+    <None Include="Asset\Lib\Font\montserrat\Montserrat-BlackItalic.ttf" />
+    <None Include="Asset\Lib\Font\montserrat\Montserrat-Bold.ttf" />
+    <None Include="Asset\Lib\Font\montserrat\Montserrat-BoldItalic.ttf" />
+    <None Include="Asset\Lib\Font\montserrat\Montserrat-ExtraBold.ttf" />
+    <None Include="Asset\Lib\Font\montserrat\Montserrat-ExtraBoldItalic.ttf" />
+    <None Include="Asset\Lib\Font\montserrat\Montserrat-ExtraLight.ttf" />
+    <None Include="Asset\Lib\Font\montserrat\Montserrat-ExtraLightItalic.ttf" />
+    <None Include="Asset\Lib\Font\montserrat\Montserrat-Italic.ttf" />
+    <None Include="Asset\Lib\Font\montserrat\Montserrat-Light.ttf" />
+    <None Include="Asset\Lib\Font\montserrat\Montserrat-LightItalic.ttf" />
+    <None Include="Asset\Lib\Font\montserrat\Montserrat-Medium.ttf" />
+    <None Include="Asset\Lib\Font\montserrat\Montserrat-MediumItalic.ttf" />
+    <None Include="Asset\Lib\Font\montserrat\Montserrat-Regular.ttf" />
+    <None Include="Asset\Lib\Font\montserrat\Montserrat-SemiBold.ttf" />
+    <None Include="Asset\Lib\Font\montserrat\Montserrat-SemiBoldItalic.ttf" />
+    <None Include="Asset\Lib\Font\montserrat\Montserrat-Thin.ttf" />
+    <None Include="Asset\Lib\Font\montserrat\Montserrat-ThinItalic.ttf" />
+    <None Include="Asset\Lib\Font\poppins\Poppins-Black.ttf" />
+    <None Include="Asset\Lib\Font\poppins\Poppins-BlackItalic.ttf" />
+    <None Include="Asset\Lib\Font\poppins\Poppins-Bold.ttf" />
+    <None Include="Asset\Lib\Font\poppins\Poppins-BoldItalic.ttf" />
+    <None Include="Asset\Lib\Font\poppins\Poppins-ExtraBold.ttf" />
+    <None Include="Asset\Lib\Font\poppins\Poppins-ExtraBoldItalic.ttf" />
+    <None Include="Asset\Lib\Font\poppins\Poppins-ExtraLight.ttf" />
+    <None Include="Asset\Lib\Font\poppins\Poppins-ExtraLightItalic.ttf" />
+    <None Include="Asset\Lib\Font\poppins\Poppins-Italic.ttf" />
+    <None Include="Asset\Lib\Font\poppins\Poppins-Light.ttf" />
+    <None Include="Asset\Lib\Font\poppins\Poppins-LightItalic.ttf" />
+    <None Include="Asset\Lib\Font\poppins\Poppins-Medium.ttf" />
+    <None Include="Asset\Lib\Font\poppins\Poppins-MediumItalic.ttf" />
+    <None Include="Asset\Lib\Font\poppins\Poppins-Regular.ttf" />
+    <None Include="Asset\Lib\Font\poppins\Poppins-SemiBold.ttf" />
+    <None Include="Asset\Lib\Font\poppins\Poppins-SemiBoldItalic.ttf" />
+    <None Include="Asset\Lib\Font\poppins\Poppins-Thin.ttf" />
+    <None Include="Asset\Lib\Font\poppins\Poppins-ThinItalic.ttf" />
+    <None Include="ClassDiagram1.cd" />
+    <Content Include="packages.config" />
+    <None Include="content\toastr.less" />
+    <None Include="content\toastr.scss" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>53999</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

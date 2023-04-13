@@ -1,0 +1,22 @@
+D:\Web Development\GMS\GMS\GMS\bin\GMS.dll
+D:\Web Development\GMS\GMS\GMS\bin\GMS.pdb
+D:\Web Development\GMS\GMS\GMS\bin\GMS.dll.CodeAnalysisLog.xml
+D:\Web Development\GMS\GMS\GMS\bin\GMS.dll.lastcodeanalysissucceeded
+D:\Web Development\GMS\GMS\GMS\obj\Debug\GMS.dll
+D:\Web Development\GMS\GMS\GMS\obj\Debug\GMS.pdb
+C:\Users\STUD\Documents\Visual Studio 2010\Projects\GMS\GMS\bin\GMS.dll
+C:\Users\STUD\Documents\Visual Studio 2010\Projects\GMS\GMS\bin\GMS.pdb
+C:\Users\STUD\Documents\Visual Studio 2010\Projects\GMS\GMS\obj\Debug\GMS.dll
+C:\Users\STUD\Documents\Visual Studio 2010\Projects\GMS\GMS\obj\Debug\GMS.pdb
+D:\Web Development\GMS\GMS\bin\GMS.dll
+D:\Web Development\GMS\GMS\bin\GMS.pdb
+D:\Web Development\GMS\GMS\obj\Debug\GMS.dll
+D:\Web Development\GMS\GMS\obj\Debug\GMS.pdb
+C:\lab_work\Project\GMS\GMS\bin\GMS.dll
+C:\lab_work\Project\GMS\GMS\bin\GMS.pdb
+C:\lab_work\Project\GMS\GMS\obj\Debug\GMS.dll
+C:\lab_work\Project\GMS\GMS\obj\Debug\GMS.pdb
+D:\Web Development\New folder\GMS\bin\GMS.dll
+D:\Web Development\New folder\GMS\bin\GMS.pdb
+D:\Web Development\New folder\GMS\obj\Debug\GMS.dll
+D:\Web Development\New folder\GMS\obj\Debug\GMS.pdb
